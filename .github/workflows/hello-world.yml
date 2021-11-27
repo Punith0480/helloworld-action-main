@@ -20,7 +20,7 @@ jobs:
         commit-count: '5'
         LabelName: 'LargePRs'
         Comments: 'The PR should have less than 10 commits'
-        github_token: ${{ env.github_token }}
+        github_token: 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
         PR_Number: "${{ env.PR_Number }}"
       
             
