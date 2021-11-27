@@ -15,7 +15,7 @@ jobs:
       contents: read
       pull-requests: write
     steps:
-    - uses: PunithMohan/helloworld-custom-action@main
+    - uses: Punith0480/helloworld-custom-action-main@main
       with:
         commit-count: '5'
         LabelName: 'LargePRs'
