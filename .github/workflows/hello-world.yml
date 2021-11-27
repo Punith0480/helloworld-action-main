@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ main ]
 env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  github_token: ${{ secrets.CUSTOM_ACTION_SECRETE }}
   PR_Number: ${{ github.event.pull_request.number }}
 jobs:
   build:
@@ -20,7 +20,7 @@ jobs:
         commit-count: '5'
         LabelName: 'LargePRs'
         Comments: 'The PR should have less than 10 commits'
-        GITHUB_TOKEN: ${{ env.GITHUB_TOKEN }}
+        github_token: ${{ env.github_token }}
         PR_Number: "${{ env.PR_Number }}"
       
             
