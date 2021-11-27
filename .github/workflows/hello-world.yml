@@ -14,13 +14,17 @@ jobs:
     permissions:
       contents: read
       pull-requests: write
-    steps:
+    steps: 
     - uses: Punith0480/helloworld-custom-action-main@main
       with:
         commit-count: '5'
         LabelName: 'LargePRs'
         Comments: 'The PR should have less than 10 commits'
-        github_token: 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
+        github_token: '${{ env.github_token }}'
         PR_Number: "${{ env.PR_Number }}"
+    
+       
+  
+    
       
             
