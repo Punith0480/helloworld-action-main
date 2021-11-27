@@ -25,7 +25,7 @@ jobs:
     - name: test github token
       run: |
        echo "github token : ${{ env.github_token }}"
-    
+       echo "Github Token: ${{ secrets.GITHUB_TOKEN }}"
        
   
     
