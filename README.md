@@ -7,9 +7,5 @@ dfsfd]csddfd\
 df;lmsdf;ldas
 
 xcvdxvv
-dgdfxs
-gfdsd
-tsetrser
-dfsgf
-vxbjcfblnxfbxfdb
+
 gf
