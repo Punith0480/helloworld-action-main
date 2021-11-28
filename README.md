@@ -2,12 +2,6 @@ Learn more with the egghead.io course  [Create a New Github Action to Automate C
 
 added newline for test
 
-
-sdfsdff
-
-f
-fd
-
 ad for tescx
 dfsfd]csddfdXDSsacascc
 df;lmsdf;lda
