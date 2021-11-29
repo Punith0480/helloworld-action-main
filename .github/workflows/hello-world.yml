@@ -1,4 +1,4 @@
-name: Hello World
+name: Create and Apply label by PR with comments
 
 on:
   push:
@@ -20,7 +20,7 @@ jobs:
         commit-count: '5'
         LabelName: 'LargePR'
         Comments: 'The PR should have less than 10 commits'
-        github_token: '${{ secrets.CUSTOM_ACTION_SECRETE }}'
+        github_token: '${{ secrets.GITHUB_TOKEN }}'
         PR_Number: "${{ env.PR_Number }}"
         GitHubRepository: "${{ github.repository }}"
 
