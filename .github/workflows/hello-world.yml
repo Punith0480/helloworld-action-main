@@ -22,6 +22,7 @@ jobs:
         Comments: 'The PR should have less than 10 commits'
         github_token: '${{ secrets.CUSTOM_ACTION_SECRETE }}'
         PR_Number: "${{ env.PR_Number }}"
+        GitHubRepository: "{{ github.repository }}"
 
        
   
