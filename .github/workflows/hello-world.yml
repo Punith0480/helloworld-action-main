@@ -1,4 +1,4 @@
-name: Create and Apply label by PR with comment
+name: Create and Apply label by PR with comments
 
 on:
   push:
