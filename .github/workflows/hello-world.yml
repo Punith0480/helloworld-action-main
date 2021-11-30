@@ -1,9 +1,12 @@
-name: Create and Apply label by PR with comment
+name: Labeler
 
 on:
 
   pull_request:
-    branches: [ main ]
+    branches: 
+      - PR_Test
+      - main
+      - PR_Ttest2
 env:
   
   PR_Number: ${{ github.event.pull_request.number }}
