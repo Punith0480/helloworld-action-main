@@ -4,8 +4,8 @@ on:
 
   pull_request:
     branches: 
-      - PR_Test
       - main
+      - PR_Test      
       - PR_Ttest2
 env:
   
