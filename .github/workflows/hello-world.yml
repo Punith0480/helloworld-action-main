@@ -1,4 +1,4 @@
-name: Labeler PR
+name: Labeler
 
 on:
   push:
@@ -22,7 +22,7 @@ jobs:
       with:
         commit-count: '5'
         LabelName: 'LargePR'
-        Comments: 'The PR should have less than 10 commits'
+        Comment: 'The PR should have less than 10 commits'
         github_token: '${{ secrets.GITHUB_TOKEN }}'
         PR_Number: "${{ env.PR_Number }}"
         GitHubRepository: "${{ github.repository }}"
