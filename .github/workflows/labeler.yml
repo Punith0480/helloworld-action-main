@@ -18,7 +18,7 @@ jobs:
       contents: read
       pull-requests: write
     steps: 
-    - uses: Punith0480/helloworld-custom-action-main@Labeler_custom
+    - uses: Punith0480/helloworld-custom-action-main@main
       with:
         commit-count: '5'
         LabelName: 'LargePR'
